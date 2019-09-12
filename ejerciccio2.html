@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ejercico2</title>
+</head>
+<body>
+     <script>
+        let i = 1;
+        let num = 0;
+        let contadorpositivo = 0;
+        let contadornegativo = 0;
+        while(1<=5){
+            num = parseInt(prompt("digite un numero"));
+
+            document.write("<p>numero ingresado" + num + "</p>");
+            
+            if(num>0){
+                contadorpositivo++;
+           
+            }else if (num<0){
+            contadornegativo++;
+            }
+            
+            
+            i++;
+        } 
+        document.write("<hr>");
+        document.write("<p> cantidad positivo"+ contadorpositivo + "</p>" );
+        document.write("<p> cantidad negativo"+ contadornegativo + "</p>" );
+
+     </script>
+</body>
+</html>
